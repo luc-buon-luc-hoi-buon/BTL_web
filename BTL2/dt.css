@@ -1,0 +1,321 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sectionHeader {
+    background: #1878b9; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+.pHeader{
+    color: white;
+    font-style: Helvetica;
+
+}
+.ulHeader{
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    height: 78px;
+    width: 250px;
+}
+.sectionSearch {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+}
+.formSearch{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.inputSearch{
+    height: 46px;
+    width: 345px;
+    margin-right: 0px;
+    font-size: large;
+    padding: 0 10px;
+}
+.buttonSearch{
+    height: 46px; 
+    width: 54px; 
+    background-color: #2A77F2;
+    margin-left: 0px;
+    padding: 0; 
+    border: none;
+}
+.imgSearch{
+    height: 30px;
+    width: 30px;
+}
+.whiteList{
+    margin-left: 60px;
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    font-style: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+}
+.iconWhiteList{
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.login{
+    margin-left: 20px;
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    font-style: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.iconLogin{
+    /* margin-right: 5px; */
+    width: 30px;
+    height: 30px;
+}
+.cart{
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+.sectionMenu{
+    
+}
+.ulMenu{
+    display: flex;
+    align-items: center; 
+    justify-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    margin: 0 450px;
+    gap: 70px;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+}
+.subMenu{
+    display: none;
+    position:absolute; 
+    width: 125px;
+}
+    
+.subMenu li {
+    padding: 5px 0;
+    
+}
+.menu-item:hover .subMenu {
+    display: block; 
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.menu-item:hover main {
+    filter: brightness(50%);
+}
+
+.sectionMenu:hover hr {
+    display: none; 
+}
+.link {
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+    padding-left: 0;
+
+}
+.link li a {
+    text-decoration: none;
+    color: #0b0f0f;
+    margin-left: 5px;
+    
+}
+
+.link li::after {
+    content: ">";
+    margin-left: 5px; 
+}
+
+.link li:last-child::after {
+    content: "";
+}
+
+.link li:last-child {
+    color: #e5cccc; /* Active/current page link */
+}
+
+
+.body {
+    display: flex;
+    padding: 0 0 100 100px;
+    margin:0;
+}
+
+.danhmuc{
+    width: 20%;
+    padding: 10px;
+    margin-left: 50px;
+    border-right: 1px solid #ddd;
+}
+.timkiem
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.thanhtimkiem{
+    width: 650px; /* Điều chỉnh chiều rộng của input */
+    height: 10px; /* Điều chỉnh chiều cao của input */
+    padding: 10px; /* Thêm padding bên trong */
+    border-radius: 1px; /* Thêm bo tròn góc */
+}
+/* Style cho nút tìm kiếm */
+.btn_tim {
+    padding: 10px;
+    background-color: #77e275; /* Màu nền của nút */
+    border: none; /* Bỏ viền */
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+.sanpham {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.sp{
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+}
+
+.sp img {
+    width: 100%;
+    height: auto;
+}
+
+.giacu {
+    text-decoration: line-through;
+    color: rgb(103, 98, 98);
+    margin-right: 10px;
+}
+
+.giamoi {
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+}
+footer {
+  background-color: #1976d2;
+  color: white;
+  padding: 40px 20px;
+  font-size: 20px;
+
+
+}
+
+footer h3, footer h4 {
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+footer form{
+    display: flex;
+
+}
+
+footer form input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+footer form button {
+  padding: 10px 20px;
+  background-color: white;
+  color: #1976d2;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+/* Kích thước mặc định (Desktop lớn) */
+.header {
+    padding: 20px;
+}
+
+.body {
+    padding: 0 0 100 100px;
+}
+
+.danhmuc {
+    width: 20%;
+}
+
+.sanpham {
+    grid-template-columns: repeat(4, 1fr); /* 4 sản phẩm trên mỗi hàng */
+}
+.sp a {
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: inherit; /* Thừa hưởng màu sắc từ parent element */
+}
+/* Media query cho màn hình nhỏ hơn */
+@media (max-width: 992px) {
+    .sanpham {
+        grid-template-columns: repeat(3, 1fr); /* 3 sản phẩm trên mỗi hàng */
+    }
+}
+
+@media (max-width: 768px) {
+    .sanpham {
+        grid-template-columns: repeat(2, 1fr); /* 2 sản phẩm trên mỗi hàng */
+    }
+    .sp {
+        padding: 5px; /* Giảm padding cho màn hình nhỏ */
+    }
+}
+
+@media (max-width: 480px) {
+    .sanpham {
+        grid-template-columns: repeat(1, 1fr); /* 1 sản phẩm trên mỗi hàng */
+    }
+    .sp {
+        padding: 5px;
+    }
+}
+
+/* Đảm bảo thân trang không tràn ra ngoài màn hình nhỏ */
+body, html {
+    overflow-x: hidden;
+}
